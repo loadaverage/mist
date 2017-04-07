@@ -13,7 +13,7 @@
 #     -v ~/.gtkrc-2.0:/home/mist/.gtkrc-2.0:ro \
 #     -v /usr/share/themes:/usr/share/themes:ro \
 #     -v /usr/share/fonts:/usr/share/fonts:ro \
-#     -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY mist
+#     -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY loadaverage/mist
 
 FROM debian:stretch
 ENV geth_mist_dir "/home/mist/Geth"
