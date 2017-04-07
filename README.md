@@ -4,6 +4,7 @@
 ```
    docker run --rm \
      -v ~/Downloads/mist:/home/mist/Downloads \
+     -v ~/.ethereum:/home/mist/.ethereum \
      -v ~/.config/Ethereum\ Wallet:/home/mist/.config/Ethereum\ Wallet \
      -v ~/.themes:/home/mist/.themes:ro \
      -v ~/.fonts:/home/mist/.fonts:ro \
